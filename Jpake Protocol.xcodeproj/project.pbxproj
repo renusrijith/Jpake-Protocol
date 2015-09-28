@@ -13,6 +13,15 @@
 		DE2045CA1BB9CE3E005DC11D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE2045C81BB9CE3E005DC11D /* Main.storyboard */; };
 		DE2045CC1BB9CE3E005DC11D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE2045CB1BB9CE3E005DC11D /* Assets.xcassets */; };
 		DE2045CF1BB9CE3E005DC11D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE2045CD1BB9CE3E005DC11D /* LaunchScreen.storyboard */; };
+		DE2045D71BB9CF0E005DC11D /* libBigInteger-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DE2045D61BB9CF0E005DC11D /* libBigInteger-iOS.a */; settings = {ASSET_TAGS = (); }; };
+		DE2045E61BB9D13E005DC11D /* jpakeparticipant.m in Sources */ = {isa = PBXBuildFile; fileRef = DE2045DD1BB9D13E005DC11D /* jpakeparticipant.m */; settings = {ASSET_TAGS = (); }; };
+		DE2045E71BB9D13E005DC11D /* JpakeRound1Payload.m in Sources */ = {isa = PBXBuildFile; fileRef = DE2045DF1BB9D13E005DC11D /* JpakeRound1Payload.m */; settings = {ASSET_TAGS = (); }; };
+		DE2045E81BB9D13E005DC11D /* JpakeRound2Payload.m in Sources */ = {isa = PBXBuildFile; fileRef = DE2045E11BB9D13E005DC11D /* JpakeRound2Payload.m */; settings = {ASSET_TAGS = (); }; };
+		DE2045E91BB9D13E005DC11D /* JpakeRound3Payload.m in Sources */ = {isa = PBXBuildFile; fileRef = DE2045E31BB9D13E005DC11D /* JpakeRound3Payload.m */; settings = {ASSET_TAGS = (); }; };
+		DE2045EA1BB9D13E005DC11D /* jpakeUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = DE2045E51BB9D13E005DC11D /* jpakeUtils.m */; settings = {ASSET_TAGS = (); }; };
+		DE2045F11BB9D155005DC11D /* jpakeParms.m in Sources */ = {isa = PBXBuildFile; fileRef = DE2045EC1BB9D155005DC11D /* jpakeParms.m */; settings = {ASSET_TAGS = (); }; };
+		DE2045F21BB9D155005DC11D /* NSData+conversion.m in Sources */ = {isa = PBXBuildFile; fileRef = DE2045EE1BB9D155005DC11D /* NSData+conversion.m */; settings = {ASSET_TAGS = (); }; };
+		DE2045F31BB9D155005DC11D /* NSString+SHA256.m in Sources */ = {isa = PBXBuildFile; fileRef = DE2045F01BB9D155005DC11D /* NSString+SHA256.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +35,24 @@
 		DE2045CB1BB9CE3E005DC11D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE2045CE1BB9CE3E005DC11D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DE2045D01BB9CE3E005DC11D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE2045D61BB9CF0E005DC11D /* libBigInteger-iOS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libBigInteger-iOS.a"; sourceTree = "<group>"; };
+		DE2045D81BB9CF1D005DC11D /* BigInteger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BigInteger.h; sourceTree = "<group>"; };
+		DE2045DC1BB9D13E005DC11D /* jpakeparticipant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jpakeparticipant.h; sourceTree = "<group>"; };
+		DE2045DD1BB9D13E005DC11D /* jpakeparticipant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = jpakeparticipant.m; sourceTree = "<group>"; };
+		DE2045DE1BB9D13E005DC11D /* JpakeRound1Payload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JpakeRound1Payload.h; sourceTree = "<group>"; };
+		DE2045DF1BB9D13E005DC11D /* JpakeRound1Payload.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JpakeRound1Payload.m; sourceTree = "<group>"; };
+		DE2045E01BB9D13E005DC11D /* JpakeRound2Payload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JpakeRound2Payload.h; sourceTree = "<group>"; };
+		DE2045E11BB9D13E005DC11D /* JpakeRound2Payload.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JpakeRound2Payload.m; sourceTree = "<group>"; };
+		DE2045E21BB9D13E005DC11D /* JpakeRound3Payload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JpakeRound3Payload.h; sourceTree = "<group>"; };
+		DE2045E31BB9D13E005DC11D /* JpakeRound3Payload.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JpakeRound3Payload.m; sourceTree = "<group>"; };
+		DE2045E41BB9D13E005DC11D /* jpakeUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jpakeUtils.h; sourceTree = "<group>"; };
+		DE2045E51BB9D13E005DC11D /* jpakeUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = jpakeUtils.m; sourceTree = "<group>"; };
+		DE2045EB1BB9D155005DC11D /* jpakeParms.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jpakeParms.h; sourceTree = "<group>"; };
+		DE2045EC1BB9D155005DC11D /* jpakeParms.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = jpakeParms.m; sourceTree = "<group>"; };
+		DE2045ED1BB9D155005DC11D /* NSData+conversion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+conversion.h"; sourceTree = "<group>"; };
+		DE2045EE1BB9D155005DC11D /* NSData+conversion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+conversion.m"; sourceTree = "<group>"; };
+		DE2045EF1BB9D155005DC11D /* NSString+SHA256.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SHA256.h"; sourceTree = "<group>"; };
+		DE2045F01BB9D155005DC11D /* NSString+SHA256.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SHA256.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE2045D71BB9CF0E005DC11D /* libBigInteger-iOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +70,7 @@
 		DE2045B31BB9CE3E005DC11D = {
 			isa = PBXGroup;
 			children = (
+				DE2045D61BB9CF0E005DC11D /* libBigInteger-iOS.a */,
 				DE2045BE1BB9CE3E005DC11D /* Jpake Protocol */,
 				DE2045BD1BB9CE3E005DC11D /* Products */,
 			);
@@ -58,8 +87,25 @@
 		DE2045BE1BB9CE3E005DC11D /* Jpake Protocol */ = {
 			isa = PBXGroup;
 			children = (
+				DE2045D81BB9CF1D005DC11D /* BigInteger.h */,
 				DE2045C21BB9CE3E005DC11D /* AppDelegate.h */,
 				DE2045C31BB9CE3E005DC11D /* AppDelegate.m */,
+				DE2045DC1BB9D13E005DC11D /* jpakeparticipant.h */,
+				DE2045DD1BB9D13E005DC11D /* jpakeparticipant.m */,
+				DE2045DE1BB9D13E005DC11D /* JpakeRound1Payload.h */,
+				DE2045EB1BB9D155005DC11D /* jpakeParms.h */,
+				DE2045EC1BB9D155005DC11D /* jpakeParms.m */,
+				DE2045ED1BB9D155005DC11D /* NSData+conversion.h */,
+				DE2045EE1BB9D155005DC11D /* NSData+conversion.m */,
+				DE2045EF1BB9D155005DC11D /* NSString+SHA256.h */,
+				DE2045F01BB9D155005DC11D /* NSString+SHA256.m */,
+				DE2045DF1BB9D13E005DC11D /* JpakeRound1Payload.m */,
+				DE2045E01BB9D13E005DC11D /* JpakeRound2Payload.h */,
+				DE2045E11BB9D13E005DC11D /* JpakeRound2Payload.m */,
+				DE2045E21BB9D13E005DC11D /* JpakeRound3Payload.h */,
+				DE2045E31BB9D13E005DC11D /* JpakeRound3Payload.m */,
+				DE2045E41BB9D13E005DC11D /* jpakeUtils.h */,
+				DE2045E51BB9D13E005DC11D /* jpakeUtils.m */,
 				DE2045C51BB9CE3E005DC11D /* ViewController.h */,
 				DE2045C61BB9CE3E005DC11D /* ViewController.m */,
 				DE2045C81BB9CE3E005DC11D /* Main.storyboard */,
@@ -149,9 +195,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE2045F11BB9D155005DC11D /* jpakeParms.m in Sources */,
+				DE2045E71BB9D13E005DC11D /* JpakeRound1Payload.m in Sources */,
+				DE2045F21BB9D155005DC11D /* NSData+conversion.m in Sources */,
 				DE2045C71BB9CE3E005DC11D /* ViewController.m in Sources */,
 				DE2045C41BB9CE3E005DC11D /* AppDelegate.m in Sources */,
+				DE2045EA1BB9D13E005DC11D /* jpakeUtils.m in Sources */,
 				DE2045C11BB9CE3E005DC11D /* main.m in Sources */,
+				DE2045E91BB9D13E005DC11D /* JpakeRound3Payload.m in Sources */,
+				DE2045E81BB9D13E005DC11D /* JpakeRound2Payload.m in Sources */,
+				DE2045F31BB9D155005DC11D /* NSString+SHA256.m in Sources */,
+				DE2045E61BB9D13E005DC11D /* jpakeparticipant.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +317,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Jpake Protocol/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "uk.ac.ncl.Jpake-Protocol";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -274,6 +332,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Jpake Protocol/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "uk.ac.ncl.Jpake-Protocol";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -298,6 +360,7 @@
 				DE2045D51BB9CE3E005DC11D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
