@@ -6,4 +6,5 @@ An instance of JPAKEParticipant represents one participant, and is the primary i
 
 This is an objective C implementation of Jpake with inputs from 
 Java implementation of it done by bouncycastle crypto library .
-
+Brief introduction to JPake protocol :
+https://tools.ietf.org/id/draft-hao-jpake-06.html
